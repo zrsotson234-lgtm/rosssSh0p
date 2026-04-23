@@ -178,7 +178,7 @@ async def buy(c: types.CallbackQuery):
     order_id = cur.lastrowid
 
     await c.message.answer(
-        f"💳 Заказ #{order_id} создан. Оплатите и нажмите кнопку ниже.",
+        f"💳 Заказ #{order_id} создан. Оплатите и нажмите кнопку ниже.2200701210959612",
         reply_markup=pay_kb(order_id),
     )
 
