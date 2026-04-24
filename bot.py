@@ -10,7 +10,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("bot")
 
-TOKEN = os.getenv("TOKEN", "8583740796:AAEQzIaFwZfh7QviEn9u45CGpcBV4XQzQdg")
+TOKEN = os.getenv("TOKEN", "BOT_TOKEN")
 
 GROUP_ID = int(os.getenv("GROUP_ID", "-1003938436395"))
 
